@@ -1,6 +1,7 @@
 const transform = require('./release.utils.cjs');
 
 module.exports = {
+    initialRelease: '0.1.0',
     branches: [
         '+([0-9])?(.{+([0-9]),x}).x',
         'master',
@@ -72,5 +73,4 @@ module.exports = {
         ],
         '@semantic-release/github',
     ],
-    initialRelease: '0.1.0',
 };
