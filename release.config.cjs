@@ -48,6 +48,9 @@ module.exports = {
                         release: 'patch',
                     },
                 ],
+                lastRelease: {
+                    version: '0.0.2', // Force the analyzer to believe the last release was 0.0.2
+                },
             },
         ],
         [
