@@ -1,7 +1,6 @@
 const transform = require('./release.utils.cjs');
 
 module.exports = {
-    initialRelease: '0.1.0',
     branches: [
         '+([0-9])?(.{+([0-9]),x}).x',
         'master',
@@ -49,9 +48,6 @@ module.exports = {
                         release: 'patch',
                     },
                 ],
-                lastRelease: {
-                    version: '0.0.2', // Force the analyzer to believe the last release was 0.0.2
-                },
             },
         ],
         [
