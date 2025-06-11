@@ -69,4 +69,5 @@ module.exports = {
         ],
         '@semantic-release/github',
     ],
+    initialRelease: '0.1.0',
 };
